@@ -16,6 +16,7 @@ USAGE:
 
 OPTIONS:
     -a, --coinbase-address <ADDRESS>           payout address for solo mined blocks
+    -d, --dimensions <DIMENSIONS>              [default: 2048000000]
     -D, --device-selector <DEVICE INDICIES>
     -h, --rpchost <HOST>                       Connect to JSON-RPC on <HOST>
     -H, --print-hashrate

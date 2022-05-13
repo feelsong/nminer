@@ -12,44 +12,20 @@ NOVO gpu miner
 
 ```
 USAGE:
-    nminer [OPTIONS]
+    nminer [OPTIONS] --coinbase-address <ADDRESS> --rpchost <HOST> --rpcport <PORT> --rpcuser <USER> --rpcpassword <PASSWORD>
 
 OPTIONS:
-    -a, --coinbase-address <ADDRESS>
-            payout address for solo mined blocks [default: 1cozyb2MgHZF71uHrnzDq53VrZeCRX5Yg]
-
-    -D, --device-selector <DEVICE NUMBERS>
-
-
-    -h, --rpchost <HOST>
-            Connect to JSON-RPC on <HOST>
-
+    -a, --coinbase-address <ADDRESS>           payout address for solo mined blocks
+    -D, --device-selector <DEVICE INDICIES>
+    -h, --rpchost <HOST>                       Connect to JSON-RPC on <HOST>
     -H, --print-hashrate
-
-
-        --help
-            Print help information
-
-    -m, --coinbase-message <MESSAGE>
-            coinbase message for solo mined blocks [default: gm]
-
-    -o, --output-file <OUTPUT_FILE>
-            [default: ./stats.json]
-
-    -p, --rpcport <PORT>
-            Connect to JSON-RPC on <PORT> [default: 8665]
-
-    -P, --rpcpassword <PASSWORD>
-            Password for JSON-RPC connections
-
-    -S, --show-devices
-
-
-    -u, --rpcuser <USER>
-            Username for JSON-RPC connections
-
-    -V, --version
-            Print version information
+        --help                                 Print help information
+    -m, --coinbase-message <MESSAGE>           coinbase message for solo mined blocks [default: gm]
+    -o, --output-file <OUTPUT_FILE>            [default: ./stats.json]
+    -p, --rpcport <PORT>                       Connect to JSON-RPC on <PORT>
+    -P, --rpcpassword <PASSWORD>               Password for JSON-RPC connections
+    -u, --rpcuser <USER>                       Username for JSON-RPC connections
+    -V, --version                              Print version information
 ```
 
 ## Coming Soon
